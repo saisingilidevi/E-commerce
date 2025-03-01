@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Shoe Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">Shoezz</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+        </div>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="register.html">Register</a><li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <div class="auth-buttons">
+            <button onclick="window.location.href='register.html'">Login</button>
+            <button onclick="window.location.href='register.html'">Signup</button>
+        </div>
+    </nav>
+    <div class="gallery-container">
+        <h1>Own Your Taste</h1>
+        <div class="gallery">
+            <div class="photo">
+                <img src="https://img.kwcdn.com/product/1d18fce4588/5d18e645-1aa2-4fe8-9497-113e39da41ea_800x800.jpeg.a.jpg"
+                    alt="Nike Air Max">
+            </div>
+            <div class="photo">
+                <img src="https://th.bing.com/th/id/OIP.uhlH_kKHKAv1YWCelc4icgHaFj?rs=1&pid=ImgDetMain"
+                    alt="Nike Air Max">
+            </div>
+            <div class="photo">
+                <img src="https://th.bing.com/th/id/OIP.QGCWvTzAVRd00VFapR3OLgHaEK?w=1920&h=1080&rs=1&pid=ImgDetMain">
+            </div>
+            <div class="photo">
+                <img src="https://th.bing.com/th/id/OIP.q-8NK3Q9M-pjiPbAHISK7gHaHa?rs=1&pid=ImgDetMain"
+                    alt="Nike Air Max">
+            </div>
+        </div>
+    </div>
+
+    <section class="shop-container">
+        <h2>OUR SHOE COLLECTION</h2>
+
+        <!-- Section 1: Running Shoes -->
+        <div class="product-category">
+            <h3>Running Shoes</h3>
+            <div class="product-grid">
+                <div class="shop-item">
+                    <img src="https://th.bing.com/th/id/OIP.-CpjA7HcJbrGwrprwYFviQHaFM?rs=1&pid=ImgDetMain"
+                        alt="Nike Air Max">
+                    <h3>Nike Air Max</h3>
+                    <p>$120</p>
+                    <button class="add-to-cart" data-name="Nike Air Max" data-price="120">Add to Cart</button>
+                </div>
+                <div class="shop-item">
+                    <img
+                        src="https://th.bing.com/th/id/OIP.U6pPeopC0P8X4AZ_nixVcwHaE8?w=1200&h=800&rs=1&pid=ImgDetMain">
+                    <h3>Adidas Ultraboost</h3>
+                    <p>$150</p>
+                    <button class="add-to-cart" data-name="Adidas Ultraboost" data-price="150">Add to Cart</button>
+                </div>
+                <div class="shop-item">
+                    <img
+                        src="https://rukminim1.flixcart.com/image/1664/1664/shoe/p/9/s/black-silver-187624-puma-9-original-imadwdtcnhyvxa9y.jpeg?q=90">
+                    <h3>Puma Running Shoes</h3>
+                    <p>$90</p>
+                    <button class="add-to-cart" data-name="Puma Running Shoes" data-price="90">Add to Cart</button>
+                </div>
+                <div class="shop-item">
+                    <img
+                        src="https://cdn.shopify.com/s/files/1/0025/4823/6334/products/DV8118_cl_renaissance_ripple_us-white_coll_navy_red_01_1920x.jpg?v=1599841397">
+                    <h3>Reebok Classic</h3>
+                    <p>$85</p>
+                    <button class="add-to-cart" data-name="Reebok Classic" data-price="85">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 2: Casual Sneakers -->
+        <div class="product-category">
+            <h3>Casual Sneakers</h3>
+            <div class="product-grid">
+                <div class="shop-item">
+                    <img src="https://th.bing.com/th/id/OIP.ybUCjrfMeOM_jLT2RlXecQHaFP?rs=1&pid=ImgDetMain">
+                    <h3>New Balance 574</h3>
+                    <p>$110</p>
+                    <button class="add-to-cart" data-name="New Balance 574" data-price="110">Add to Cart</button>
+                </div>
+                <div class="shop-item">
+                    <img
+                        src="https://th.bing.com/th/id/OIP.I3Nas1NK1NNneP9dBf3PUQHaE7?w=1280&h=853&rs=1&pid=ImgDetMain">
+                    <h3>Converse Chuck Taylor</h3>
+                    <p>$70</p>
+                    <button class="add-to-cart" data-name="Converse Chuck Taylor" data-price="70">Add to Cart</button>
+                </div>
+                <div class="shop-item">
+                    <img src="https://th.bing.com/th/id/OIP.qY48OQvxp1fGG_jL-O3k7wHaFj?w=640&h=480&rs=1&pid=ImgDetMain">
+                    <h3>Vans Old Skool</h3>
+                    <p>$75</p>
+                    <button class="add-to-cart" data-name="Vans Old Skool" data-price="75">Add to Cart</button>
+                </div>
+                <div class="shop-item">
+                    <img src="https://th.bing.com/th/id/OIP.f55veT8tHGNYN7JYeawBnAHaFM?rs=1&pid=ImgDetMain">
+                    <h3>Nike SB Dunk</h3>
+                    <p>$95</p>
+                    <button class="add-to-cart" data-name="Nike SB Dunk" data-price="95">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3: Formal Shoes -->
+        <div class="product-category">
+            <h3>Formal Shoes</h3>
+            <div class="product-grid">
+                <div class="shop-item">
+                    <img src="https://th.bing.com/th/id/OIP.t7ejoTNvXA6MyVMMd_NKMgHaHa?rs=1&pid=ImgDetMain">
+                    <h3>Clarks Formal</h3>
+                    <p>$95</p>
+                    <button class="add-to-cart" data-name="Clarks Formal" data-price="95">Add to Cart</button>
+                </div>
+                <div class="shop-item">
+                    <img
+                        src="https://th.bing.com/th/id/OIP.q8eGE-LeSW8LHyQvbTHJNQHaHa?w=1140&h=1140&rs=1&pid=ImgDetMain">
+                    <h3>Oxford Leather Shoes</h3>
+                    <p>$130</p>
+                    <button class="add-to-cart" data-name="Oxford Leather Shoes" data-price="130">Add to Cart</button>
+                </div>
+                <div class="shop-item">
+                    <img src="https://th.bing.com/th/id/OIP.KJzmjC-3xvSQ_d4hlw0zTAHaHa?rs=1&pid=ImgDetMain">
+                    <h3>Derby Shoes</h3>
+                    <p>$120</p>
+                    <button class="add-to-cart" data-name="Derby Shoes" data-price="120">Add to Cart</button>
+                </div>
+                <div class="shop-item">
+                    <img
+                        src="https://th.bing.com/th/id/R.a76fffe0a938bacb453227dd63acaeea?rik=Mi3K05vzE%2bURzA&riu=http%3a%2f%2fimage.sportsmansguide.com%2fadimgs%2fl%2f5%2f592626_ts.jpg&ehk=uzdsYtMF0nusbgYJ2d8lhgr15NW1YP7kxb3EJ63OWWk%3d&risl=&pid=ImgRaw&r=0">
+                    <h3>Loafers</h3>
+                    <p>$85</p>
+                    <button class="add-to-cart" data-name="Loafers" data-price="85">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div>
+        <h2>Find Your Perfect Pair</h2>
+        <p>Shop the latest collection of stylish shoes!</p>
+        <div class="dot">
+          <a href="shop.html" class="btn">Shop Now</a>
+        </div>
+    </div>
+    <div class="foot">
+             
+        <footer class="footer">
+            <p>Location: Shoezz Industries, Sainagar, someswaram, India</p>
+            <p>Contact: 9573556000</p>
+            <p>Email: shoezzstore@gmail.com</p>
+            <div class="footer-section-social">
+                <h2>Follow Us On</h2>
+                <a href="#"><img src="pngwing.com (16).png" alt="" width="25px" height="25px"></a>
+                <a href="#"><img src="pngwing.com (17).png" alt="" width="25px" height="25px"></a>
+                <a href="#"><img src="pngwing.com (18).png" alt="" width="25px" height="25px"></a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 A9graphies photographies. All Rights Reserved.</p>
+            </div>
+        </footer>
+
+</body>
+
+</html>
